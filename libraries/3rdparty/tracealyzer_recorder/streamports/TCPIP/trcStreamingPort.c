@@ -53,8 +53,7 @@
 /* TCP/IP includes */
 #include "lwip/tcpip.h"
 #include "lwip/sockets.h"
-
-int errno;
+#include "lwip/errno.h"
 
 #define TRC_TCPIP_PORT 12000
 

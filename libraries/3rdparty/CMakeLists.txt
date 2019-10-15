@@ -85,7 +85,6 @@ if(EXISTS "${AFR_3RDPARTY_DIR}/lwip" AND NOT "${AFR_BOARD}" STREQUAL "pc.windows
         afr_3rdparty_lwip
         PUBLIC
             "${AFR_3RDPARTY_DIR}/lwip/src/include"
-            "${AFR_3RDPARTY_DIR}/lwip/src/include/lwip"
             "${AFR_3RDPARTY_DIR}/lwip/src/portable"
     )
     target_link_libraries(
